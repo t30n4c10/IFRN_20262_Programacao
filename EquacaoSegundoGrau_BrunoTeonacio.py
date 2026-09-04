@@ -1,5 +1,6 @@
 #import math # Para usar a raiz quadrada
 
+# Não estou usando Try/Except, então assuma que o usuário realmente digitou tres valores inteiros
 valores = input("Digite os valores de a, b e c, de uma equação do segundo grau (separados por espaço):").split()
 a = int(valores[0])
 b = int(valores[1])

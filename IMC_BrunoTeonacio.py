@@ -1,3 +1,4 @@
+# Não estou usando Try/Except, então assuma que o usuário realmente digitou numeros float
 peso = float(input("Digite o seu peso: "))
 altura = float(input("Digite a sua altura: "))
 
