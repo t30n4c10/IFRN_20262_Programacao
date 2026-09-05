@@ -9,7 +9,7 @@ else:
     
     if MD >= 60:
         print("Estudante aprovado por média - Média {}".format(MD))
-    elif 20 < MD < 60:
+    elif MD >= 20:
         
         N3 = float(input("Estudante terá que fazer a prova final. Digite a nota N3: "))
         Nmaior = 0
@@ -26,7 +26,7 @@ else:
         else:
             Nmaior = MFD3
             
-        if Nmaior > 60:
+        if Nmaior >= 60:
             print("Estudante aprovado por média - Média {}".format(Nmaior))
         else:
             print("Estudante reprovado por média - Média {}".format(Nmaior))
