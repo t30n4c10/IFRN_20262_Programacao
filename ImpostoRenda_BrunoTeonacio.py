@@ -23,6 +23,10 @@ elif salario <= 7350:
     
     # Redução progressiva, de acordo com o salário
     IRPF = 978.62 - (0.133145*salario)
+    
+# Corrige IRPF negativo
+if IRPF < 0:
+    IRPF = 0
 
 if IRPF > 0:
     print("Seu IRPF a pagar será {}.".format(IRPF))
