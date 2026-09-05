@@ -3,7 +3,7 @@ IRPF = 0
 
 # Primeiro cálculo
 if salario <= 2428.80:
-    print("Não precisa pagar imposto de renda.")
+    IRPF = 0
 elif salario <= 2826.65:
     IRPF = salario*0.075 - 182.16
 elif  salario <= 3751.05:
