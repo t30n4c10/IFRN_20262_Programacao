@@ -6,13 +6,13 @@ IMC = round((peso/(altura**2)), 3)
 
 if IMC < 18.5:
     print("Você está com baixo peso.")
-elif 18.5 <= IMC < 24.9:
+elif IMC <= 24.9:
     print("Você está com peso normal.")
-elif 24.9 <= IMC < 25.9:
+elif IMC <= 25.9:
     print("Você está com sobrepeso.")
-elif 25.9 <= IMC < 34.9:
+elif IMC <= 34.9:
     print("Você está com sobrepeso grau I")
-elif 34.9 <= IMC < 39.9:
+elif IMC <= 39.9:
     print("Você está com sobrepeso grau II")
-elif IMC >= 39.9:
+else:
     print("Você está com sobrepeso grau III")
