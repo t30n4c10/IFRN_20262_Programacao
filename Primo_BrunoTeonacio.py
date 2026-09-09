@@ -1,3 +1,4 @@
+# Código não otimizado.
 numero = int(input("Digite um valor: "))
 cont = 0
 num_div = 0
