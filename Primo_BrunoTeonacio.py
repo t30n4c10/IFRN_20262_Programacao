@@ -1,17 +1,11 @@
 # Código não otimizado.
 numero = int(input("Digite um valor: "))
-cont = 0
 num_div = 0
 
-#while 1 == 1:
-while cont <= numero:
-    cont = cont + 1
+for cont in range(numero+1):
     
-    if numero % cont == 0:
+    if cont != 0 and numero % cont == 0:
         num_div = num_div + 1
-        
-#    if cont == numero:
-#        break
         
 if num_div == 2:
     print("É primo!!!")
