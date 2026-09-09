@@ -1,2 +1,2 @@
 # Fazer.
-# Mais = https://projecteuler.net/archives
+# Mais = https://leetcode.com/
