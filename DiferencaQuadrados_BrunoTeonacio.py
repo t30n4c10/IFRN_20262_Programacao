@@ -12,14 +12,14 @@ limite = 100
 
 # Soma do quadrado
 while count <= limite:
-    soma_do_quadrado = soma_do_quadrado + count**2
+    soma_do_quadrado += count**2
     count += 1
 
 count = 1
 
 # Quadrado da soma
 while count <= limite:
-    quadrado_da_soma = quadrado_da_soma + count
+    quadrado_da_soma += count
     count += 1
 quadrado_da_soma = quadrado_da_soma**2 # Note que essa linha está fora do while.
 
