@@ -1,4 +1,4 @@
-# Dado uma palavra e uma letra, verifica quantas vezes a letra aparece na palavra
+# Dado uma palavra e uma letra,erifica quantas vezes a letra aparece na palavra
 # OBS: NÃO usa o método count() da string.
 
 palavra = input("Digite uma palavra: ")
