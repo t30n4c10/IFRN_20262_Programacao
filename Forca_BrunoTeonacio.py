@@ -16,11 +16,11 @@ sorteada = random.choice(palavras)
 tamanho = len(sorteada)
 letra_count = 0 # CONTADOR
 letra_escolhida = ""
-string_a_mostrar = ""
+string_a_mostrar = ["_"] * tamanho
 
 print(sorteada)
-print(string_a_mostrar)
 print("Palavra sorteada. Dica = A palavra tem {} letras.".format(tamanho))
+print(string_a_mostrar)
 
 while letra_count < tamanho:
 
@@ -34,10 +34,14 @@ while letra_count < tamanho:
         for indice, caractere in enumerate(sorteada):
         
             if caractere == letra_escolhida:
-                string_a_mostrar += letra_escolhida
-                
+
+                # Adiciona a letra escolhida na posição correta da string_a_mostrar
+                string_a_mostrar[indice] = letra_escolhida
+                letra_count += 1
+
+        # Mostra a palavra com as letras acertadas até o momento
         print(string_a_mostrar)
-        
-        letra_count += 1
     else:
         print("A letra escolhida não faz parte da palavra. Tente novamente.")
+
+print("Parabéns! Você acertou a palavra: {}".format(sorteada))
