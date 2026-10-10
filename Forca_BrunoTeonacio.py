@@ -18,7 +18,7 @@ letra_count = 0 # CONTADOR
 letra_escolhida = ""
 string_a_mostrar = ["_"] * tamanho
 
-print(sorteada)
+#print(sorteada)
 print("Palavra sorteada. Dica = A palavra tem {} letras.".format(tamanho))
 print(string_a_mostrar)
 
