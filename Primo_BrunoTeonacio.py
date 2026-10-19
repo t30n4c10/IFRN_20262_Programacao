@@ -1,3 +1,5 @@
+# Código simples para verificar se um número é primo.
+
 # Código não otimizado.
 numero = int(input("Digite um valor: "))
 num_div = 0

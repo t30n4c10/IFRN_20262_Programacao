@@ -12,11 +12,16 @@ x2 = 0
 if a == 0:
     print("O valor de a não pode ser zero. Envie novamente os valores.")
 else:
+    # Calcula o delta
     delta = (b**2) - (4*a*c)
 
+    # Delta negativo significa que a equação não possui raízes reais, apenas imaginárias.
+    # Não consideramos essa opção aqui.
     if delta < 0:
         print("O valor de delta da equação, {}, é menor que 0, portanto as raízes são imaginárias.".format(delta))
-    else:    
+    else:
+
+        # Calcula as raízes da equação do segundo grau  
         #x1 = (-b + math.sqrt(delta))/(2*a)
         #x2 = (-b - math.sqrt(delta))/(2*a)
         x1 = (-b + delta**0.5)/(2*a)

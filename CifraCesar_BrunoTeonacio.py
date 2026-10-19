@@ -1,5 +1,7 @@
 # Dado uma palavra, devolve a mesma criptograafada com a cifra de César, utilizando um deslocamento definido no código.
 # Assuma que a palavra não possui acentos, espaços ou caracteres especiais, e que é uma palavra válida.
+#
+# EX: bruno (1 deslocamento) -> csvop
 
 palavra = input("Digite uma palavra: ")
 codinome = ""

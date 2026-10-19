@@ -2,7 +2,7 @@
 
 term1 = 1
 term2 = 2
-limit = 4000000
+limit = 4000000 # Limite máximo para os termos da sequência
 sum = 2 # Inicia a soma com o segundo termo, que é par
 
 while 1==1:
@@ -18,6 +18,7 @@ while 1==1:
     if term3 % 2 == 0:
         sum += term3
 
+    # Avança entre os termos da sequência
     term1 = term2
     term2 = term3
 

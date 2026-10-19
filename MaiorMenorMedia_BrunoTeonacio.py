@@ -18,6 +18,7 @@ while 1 == 1:
     # Adiciona o valor informado na lista de valores
     valores.append(valor)
 
+# Percorre os valores adicionados e calcula o maior, o menor e a média dos valores.
 for i,valor in enumerate(valores):
 
     # No início, o maior e o menor valor são iguais ao primeiro valor informado.

@@ -1,12 +1,16 @@
+# Solicita as notas N1 e N2 do aluno
 N1 = float(input("Digite a nota N1: "))
 N2 = float(input("Digite a nota N2: "))
 
 if (N1 <= 0) or (N2 <= 0):
     print("Digite valores válidos para as notas N1 e N2.")
 else:
-    
+
+    # Calcula a média do semestre
     MD = (2*N1 + 3*N2)/5
-    
+
+    # Acima de 60, o estudante é aprovado. Entre 20 e 60, o estudante terá que fazer a prova final.
+    # Abaixo de 20, o estudante é reprovado.
     if MD >= 60:
         print("Estudante aprovado por média - Média {}".format(MD))
     elif MD >= 20:
@@ -24,8 +28,6 @@ else:
         N3_2 = (300 - 3*N2)/2
         # Terceira NAF
         N3_3 = (300 - 2*N1)/3
-        
-        #print("As NAF são, respectivamente: {}, {} e {}".format(N3_1,N3_2,N3_3))
 
         # Calcula a menor das três notas - N3_1, N3_2 e N3_3
         if (N3_1 <= N3_2) and (N3_1 <= N3_3):

@@ -2,6 +2,7 @@
 peso = float(input("Digite o seu peso: "))
 altura = float(input("Digite a sua altura: "))
 
+# Round arredonda o resultado do IMC para 3 casas decimais, como pedido no enunciado.
 IMC = round((peso/(altura**2)), 3)
 
 if IMC < 18.5:

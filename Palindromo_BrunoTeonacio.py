@@ -1,3 +1,8 @@
+# Verifica se um número é palíndromo.
+# Definição de palíndromo: Um número é palíndromo se ele for igual ao seu inverso.
+#
+# EX: 12321 é palíndromo, pois 12321 == 12321.
+
 # Não estou usando Try/Except, então assuma que o usuário realmente digitou um número inteiro.
 numero_original = int(input("Digite um número: "))
 numero = numero_original

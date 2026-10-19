@@ -12,6 +12,7 @@ taxa_juros_mensal = 0
 num_anos = 1
 calculo = 'S'
 
+# Enquanto o usuário desejar calcular o saldo do investimento.
 while calculo == 'S':
 
     # Solicita as informações iniciais ao usuário

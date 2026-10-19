@@ -1,8 +1,9 @@
 # https://projecteuler.net/problem=3
 
-number = 600851475143
+number = 600851475143 # Número em questão
 divisores_primos = []
 
+# Percorre todos os números de 2 até o número em questão
 for i in range(2, number + 1):
 
     # Verifica se o valor em questão é primo

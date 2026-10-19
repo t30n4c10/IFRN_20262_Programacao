@@ -1,5 +1,4 @@
 # https://projecteuler.net/problem=8
-# Código não-otimizado
 
 numero_digitos = 13
 grupo = 10**numero_digitos
@@ -25,4 +24,5 @@ while num >= grupo:
     # Elimina o último dígito
     num //= 10
 
+# Mostra a multiplicação de 13 digitos encontrada
 print("A maior multiplicação de {} digitos é: {}".format(numero_digitos, maior_prod13))

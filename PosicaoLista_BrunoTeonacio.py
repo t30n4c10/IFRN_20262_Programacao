@@ -1,3 +1,5 @@
+# Encontra a primeira posição de um número na lista.
+
 lista = [51,14,21,53,85,21,51]
 numero = int(input("Digite um número que existe na lista: "))
 tem_o_numero = 0
